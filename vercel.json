@@ -11,24 +11,7 @@
         "src": "/api/(.*)",
         "dest": "/api/index.js"
       }
-    ],
-    "redirects": [
-      {
-        "source": "/old-path",
-        "destination": "/new-path",
-        "permanent": true
-      }
-    ],
-    "headers": [
-      {
-        "source": "/(.*)",
-        "headers": [
-          {
-            "key": "X-Custom-Header",
-            "value": "my-custom-value"
-          }
-        ]
-      }
     ]
+    
   }
   
